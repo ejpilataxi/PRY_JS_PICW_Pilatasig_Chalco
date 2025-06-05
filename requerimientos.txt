@@ -1,0 +1,36 @@
+Descripción:
+
+Crear una calculadora básica utilizando JavaScript para la lógica y Bootstrap para el diseño visual y responsivo. El objetivo es aplicar lo aprendido sobre el DOM, funciones y estructuras condicionales, así como reforzar el uso de diseño adaptable con Bootstrap (uso de row, col y gutters).
+
+
+Funcionalidad esperada:
+
+La calculadora debe permitir al usuario:
+Ingresar un primer número en una única caja de texto.
+Seleccionar una operación (suma, resta, multiplicación o división) mediante botones.
+Al seleccionar la operación, el campo de entrada debe limpiarse y mostrar brevemente la operación elegida.
+Ingresar el segundo número.
+Al presionar el botón igual (=), debe desaparecer la operación mostrada y mostrarse el resultado final.
+Todos los botones (números del 0 al 9, operaciones, igual y limpiar) deben estar diseñados utilizando elementos de tipo botón.
+El diseño debe usar:
+Sistema de grillas de Bootstrap (row, col) para posicionar los botones de manera clara y ordenada.
+Uso de gutters para separar visualmente los botones y hacer el diseño más limpio.
+Diseño responsive (adaptable a celulares, tabletas y computadoras).
+
+
+Requisitos técnicos:
+
+Usar solo JavaScript puro (vanilla JS) para la lógica (sin frameworks externos como React, Angular, etc.).
+Usar Bootstrap 5 para el diseño visual.
+El código debe estar ordenado y comentado correctamente.
+Incluir validaciones simples (por ejemplo, evitar división por cero).
+Entregable:
+
+Seguir el formato establecido que se encuentra el la información del curso.
+Crear una buena estructura de proyecto (css,js,img,lib)
+Se evaluará:
+
+Correcto funcionamiento de la calculadora.
+Uso adecuado de JavaScript y el DOM.
+Limpieza del código y comentarios.
+Uso correcto de Bootstrap para lograr un diseño responsive.

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+                <h2 class="text-center mb-3">Actividad Calculadora</h2>
+            <!-- Creamos un contenedor para mostrar en pantalla -->
+        <div class="container p-3 rounded bg-danger-subtle" style="max-width: 500px;">
+
+            
+            <!-- Encabezado para mostrar los números ingresados y el mensaje para mostrar la operación actual y resultados-->
+            <div class="mb-3">
+
+                <input type="text" class="form-control" id="pantalla" placeholder="0" disabled />
+
+            </div>
+
+            <!-- Botones correspondientes a la calculadora ordenados de una forma clasica -->
+            <div class="row g-2">
+        
+        
+                <div class="col-3"><button class="btn btn-primary w-100" onclick="Numero('7')">7</button></div>
+                <div class="col-3"><button class="btn btn-primary w-100" onclick="Numero('8')">8</button></div>
+                <div class="col-3"><button class="btn btn-primary w-100" onclick="Numero('9')">9</button></div>
+                <div class="col-3"><button class="btn btn-danger w-100" onclick="leerOperacion('/')">÷</button></div>
+
+                <div class="col-3"><button class="btn btn-primary w-100" onclick="Numero('4')">4</button></div>
+                <div class="col-3"><button class="btn btn-primary w-100" onclick="Numero('5')">5</button></div>
+                <div class="col-3"><button class="btn btn-primary w-100" onclick="Numero('6')">6</button></div>
+                <div class="col-3"><button class="btn btn-danger w-100" onclick="leerOperacion('*')">×</button></div>
+
+                <div class="col-3"><button class="btn btn-primary w-100" onclick="Numero('1')">1</button></div>
+                <div class="col-3"><button class="btn btn-primary w-100" onclick="Numero('2')">2</button></div>
+                <div class="col-3"><button class="btn btn-primary w-100" onclick="Numero('3')">3</button></div>
+                <div class="col-3"><button class="btn btn-danger w-100" onclick="leerOperacion('-')">−</button></div>
+                
+
+                <div class="col-3"><button class="btn btn-primary w-100" onclick="Numero('0')">0</button></div>
+                <div class="col-3"><button class="btn btn-secondary w-100" onclick="limpiarPantalla()">C</button></div>
+                <div class="col-3"><button class="btn btn-success w-100" onclick="calcular()">=</button></div>
+                <div class="col-3"><button class="btn btn-danger w-100" onclick="leerOperacion('+')">+</button></div>
+                
+
+
+
+
+             </div>
+    
+      </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+     <script src="public/js/script copy.js"></script>
+</body>
+</html>
